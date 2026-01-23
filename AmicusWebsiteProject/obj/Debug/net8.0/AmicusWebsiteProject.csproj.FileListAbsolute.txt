@@ -1,0 +1,6 @@
+C:\Users\wolfl\Desktop\repos\AmicusWebsite\AmicusWebsiteProject\obj\Debug\net8.0\AmicusWebsiteProject.csproj.AssemblyReference.cache
+C:\Users\wolfl\Desktop\repos\AmicusWebsite\AmicusWebsiteProject\obj\Debug\net8.0\AmicusWebsiteProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wolfl\Desktop\repos\AmicusWebsite\AmicusWebsiteProject\obj\Debug\net8.0\AmicusWebsiteProject.AssemblyInfoInputs.cache
+C:\Users\wolfl\Desktop\repos\AmicusWebsite\AmicusWebsiteProject\obj\Debug\net8.0\AmicusWebsiteProject.AssemblyInfo.cs
+C:\Users\wolfl\Desktop\repos\AmicusWebsite\AmicusWebsiteProject\obj\Debug\net8.0\AmicusWebsiteProject.csproj.CoreCompileInputs.cache
+C:\Users\wolfl\Desktop\repos\AmicusWebsite\AmicusWebsiteProject\obj\Debug\net8.0\AmicusWebsiteProject.sourcelink.json

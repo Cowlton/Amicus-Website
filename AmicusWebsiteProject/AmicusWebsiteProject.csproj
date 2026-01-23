@@ -7,4 +7,20 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.1.66" />
+      <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.9" />
+      <PackageReference Include="Microsoft.NET.Workload.Mono.ToolChain.Current.Manifest-9.0.100" Version="9.0.12" />
+      <PackageReference Include="MySql.Data" Version="9.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers\" />
+      <Folder Include="Views\Shared\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="Program\AmicusWebsiteProject.csproj" />
+    </ItemGroup>
+
 </Project>

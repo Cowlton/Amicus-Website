@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Product>
+
+<h2>Products</h2>
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Title</th>
+        <th>Email</th>
+        <th>Phone Number</th>
+    </tr>
+
+    @foreach (var board_members in @Model)
+    {
+        <tr>
+            <td>@board_members.MemberID</td>
+            <td>@board_members.FirstName</td>
+            <td>@board_members.LastName</td>
+            <td>@board_members.Title</td>
+            <td>@board_members.Email</td>
+            <td>@board_members.PhoneNumber</td>
+        </tr>
+    }
+
+</table>
