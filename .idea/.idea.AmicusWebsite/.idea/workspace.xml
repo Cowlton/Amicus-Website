@@ -10,33 +10,33 @@
   <component name="ChangeListManager">
     <list default="true" id="c17ec9a9-ec07-40c8-b778-630d5ead94d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AmicusWebsite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AmicusWebsite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/AmicusWebsiteProject.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/AmicusWebsiteProject.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Program/AmicusWebsiteProject.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Program/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Program/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Program/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Views/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/AmicusWebsiteProject.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/AmicusWebsiteProject.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Members/Index" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Members/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.GlobalUsings.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/ref/AmicusWebsiteProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/ref/AmicusWebsiteProject.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/refint/AmicusWebsiteProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/refint/AmicusWebsiteProject.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/rpswa.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,6 +140,9 @@
       <workItem from="1769012668505" duration="7950000" />
       <workItem from="1769126903702" duration="536000" />
       <workItem from="1769128896632" duration="19000" />
+      <workItem from="1769130867425" duration="181000" />
+      <workItem from="1769132029081" duration="835000" />
+      <workItem from="1769215909221" duration="1172000" />
     </task>
     <servers />
   </component>

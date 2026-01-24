@@ -2,9 +2,9 @@ namespace AmicusWebsite;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using AmicusWebsiteProject.Models;
-using Microsoft.Extensions.Logging;
 
-public class HomeController
+
+public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
