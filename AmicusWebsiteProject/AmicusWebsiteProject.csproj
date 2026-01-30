@@ -9,8 +9,6 @@
       <PackageReference Include="MySql.Data" Version="9.5.0" />
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="Controllers\" />
-      <Folder Include="Views\Shared\" />
-      <Folder Include="wwwroot\" />
+      <None Include="wwwroot\images\Logo.png" />
     </ItemGroup>
 </Project>

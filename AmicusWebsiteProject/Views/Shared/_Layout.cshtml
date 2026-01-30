@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Amicus</title>
+    <link rel="stylesheet" href="site.css" />
+</head>
+<body class="outer">
+
+<div class="full-container header-container" id="header-container">
+	
+	<div class="Logo"><a class="Logo" asp-area="" asp-controller="Home" asp-action="Index"><img alt="Amicus Logo" src="/images/Logo.png"></a></div>
+<div class="menu">
+    <span class="extras"><a href="#"><img class="extras" alt="My Account Icon" src="images/LoginIcon.jpg"><span>My Account</span></a><a href="#"><img class="extras" alt="Open House Icon" src="images/OpenHouseIcon.png"><span>Join A Open House</span></a><a href="#"><img class="extras" alt="Curriculum" src="images/curriculum-icon.png"><span>Curriculum</span></a></span>
+    <nav>
+    </nav>
+</div>
+</div>
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container inner">
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+
+
+                <ul class="navbar-nav">
+                    <li>
+                        <img class="Logo outer" src="images/Logo.png" alt="Amicus Logo">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Members" asp-action="Index">Meet the members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">Learn More</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="navbar_actions">
+        <a href="#" class="btn btn-text">Login</a>
+        <a href="#" class="btn btn-primary">Join</a>
+    </div>
+
+</header>
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2021 - Amicus-Classical-Academia - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>
+@*<script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>*@
+<script src="~/site.js" asp-append-version="true"></script>
+@*@RenderSection("Scripts", required: false)*@
+</body>
+</html>

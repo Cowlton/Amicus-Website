@@ -1,0 +1,23 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=_005CHOME_005CINDEX/@EntryIndexedValue">\Home\Index</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=_005CHOME/@EntryIndexedValue">\Home</s:String>
+
+
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=_005CINDEX/@EntryIndexedValue"/>
+	
+	
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CHOME/@EntryIndexedValue">wwwroot\Home</s:String>
+	
+	
+	
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CHOME_005CABOUT/@EntryIndexedValue">wwwroot\Home\About</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CHOME_005CINDEX/@EntryIndexedValue">wwwroot\Home\Index</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CINDEX/@EntryIndexedValue">wwwroot\Index</s:String>
+	
+	
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CVIEWS/@EntryIndexedValue">wwwroot\Views</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=_005CHOME_005CINDEX/@EntryIndexedValue">\Home\Index</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=_005CHOME/@EntryIndexedValue">\Home</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=_005CINDEX/@EntryIndexedValue">\Index</s:String></wpf:ResourceDictionary>
