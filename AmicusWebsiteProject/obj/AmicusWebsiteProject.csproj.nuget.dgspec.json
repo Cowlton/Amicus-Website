@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wolfl\\Desktop\\repos\\AmicusWebsite\\amicuswebsiteproject\\AmicusWebsiteProject.csproj": {}
+    "C:\\Users\\wolfl\\OneDrive\\Desktop\\repos\\Amicus-Website\\AmicusWebsiteProject\\AmicusWebsiteProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wolfl\\Desktop\\repos\\AmicusWebsite\\amicuswebsiteproject\\AmicusWebsiteProject.csproj": {
+    "C:\\Users\\wolfl\\OneDrive\\Desktop\\repos\\Amicus-Website\\AmicusWebsiteProject\\AmicusWebsiteProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wolfl\\Desktop\\repos\\AmicusWebsite\\amicuswebsiteproject\\AmicusWebsiteProject.csproj",
+        "projectUniqueName": "C:\\Users\\wolfl\\OneDrive\\Desktop\\repos\\Amicus-Website\\AmicusWebsiteProject\\AmicusWebsiteProject.csproj",
         "projectName": "AmicusWebsiteProject",
-        "projectPath": "C:\\Users\\wolfl\\Desktop\\repos\\AmicusWebsite\\amicuswebsiteproject\\AmicusWebsiteProject.csproj",
+        "projectPath": "C:\\Users\\wolfl\\OneDrive\\Desktop\\repos\\Amicus-Website\\AmicusWebsiteProject\\AmicusWebsiteProject.csproj",
         "packagesPath": "C:\\Users\\wolfl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wolfl\\Desktop\\repos\\AmicusWebsite\\amicuswebsiteproject\\obj\\",
+        "outputPath": "C:\\Users\\wolfl\\OneDrive\\Desktop\\repos\\Amicus-Website\\AmicusWebsiteProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

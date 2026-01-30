@@ -10,13 +10,38 @@
 
 <div class="full-container header-container" id="header-container">
 	
-	<div class="Logo"><a class="Logo" asp-area="" asp-controller="Home" asp-action="Index"><img alt="Amicus Logo" src="/images/Logo.png"></a></div>
-<div class="menu">
-    <span class="extras"><a href="#"><img class="extras" alt="My Account Icon" src="images/LoginIcon.jpg"><span>My Account</span></a><a href="#"><img class="extras" alt="Open House Icon" src="images/OpenHouseIcon.png"><span>Join A Open House</span></a><a href="#"><img class="extras" alt="Curriculum" src="images/curriculum-icon.png"><span>Curriculum</span></a></span>
-    <nav>
-    </nav>
+    @*<div class="Logo"><a class="Logo" asp-area="" asp-controller="Home" asp-action="Index"><img alt="Amicus Logo" src="/images/Logo.png"></a></div>*@
+    <div class="menu">
+        <ul class="navbar-nav">
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn"><image class="extras" alt="Dropdown" src="images/Dropdown1.jpg"></image> 
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Home</a>
+                        <a href="#">Contact a member</a>
+                        <a href="#">About</a>
+                    </div>
+                </div> 
+            </li>
+            
+            <li>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><image class="extras" alt="My Account icon" src="images/LoginIcon.jpg"></image><span class="ImgText">My Accounts</span></a>
+            </li>
+            <li>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><image class="extras" alt="Open House Icon" src="images/OpenHouseIcon.png"></image><span class="ImgText">Join A Open House</span></a>
+            </li>
+            <li>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><image class="extras" alt="Curriculum icon" src="images/curriculum-icon.png"></image><span class="ImgText">Curriculum</span></a>
+            </li>
+
+        </ul>
+        <nav>
+        </nav>
+    </div>
 </div>
-</div>
+
 <header>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
         <div class="container inner">
@@ -26,9 +51,6 @@
 
 
                 <ul class="navbar-nav">
-                    <li>
-                        <img class="Logo outer" src="images/Logo.png" alt="Amicus Logo">
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     </li>
