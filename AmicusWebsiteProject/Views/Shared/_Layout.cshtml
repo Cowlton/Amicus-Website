@@ -1,76 +1,50 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>@ViewData["Title"] - Amicus</title>
-    <link rel="stylesheet" href="site.css" />
+    <link rel="stylesheet" href="~/site.css"/>
 </head>
 <body class="outer">
 
 <div class="full-container header-container" id="header-container">
-	
+
     @*<div class="Logo"><a class="Logo" asp-area="" asp-controller="Home" asp-action="Index"><img alt="Amicus Logo" src="/images/Logo.png"></a></div>*@
     <div class="menu">
         <ul class="navbar-nav">
             <li>
                 <div class="dropdown">
-                    <button class="dropbtn"><image class="extras" alt="Dropdown" src="images/Dropdown1.jpg"></image> 
+                    <span class="dropbtn"><image class="extras" alt="Dropdown" src="/images/Dropdown1.jpg"></image>
                         <i class="fa fa-caret-down"></i>
-                    </button>
+                    </span>
                     <div class="dropdown-content">
-                        <a href="#">Home</a>
-                        <a href="#">Contact a member</a>
-                        <a href="#">About</a>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        <a class="nav-link" asp-area="" asp-controller="Members" asp-action="Index">Contact a member</a>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">About</a>
                     </div>
-                </div> 
+                </div>
             </li>
-            
+
             <li>
-                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><image class="extras" alt="My Account icon" src="images/LoginIcon.jpg"></image><span class="ImgText">My Accounts</span></a>
-            </li>
-            <li>
-                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><image class="extras" alt="Open House Icon" src="images/OpenHouseIcon.png"></image><span class="ImgText">Join A Open House</span></a>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="OpenHouse"><image class="extras" alt="Open House Icon" src="/images/OpenHouseIcon.png"></image><span class="ImgText">Join A Open House</span></a>
             </li>
             <li>
-                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><image class="extras" alt="Curriculum icon" src="images/curriculum-icon.png"></image><span class="ImgText">Curriculum</span></a>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><image class="extras" alt="Curriculum icon" src="/images/curriculum-icon.png"></image><span class="ImgText">Curriculum</span></a>
+            </li>
+
+            <li class="Right">
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><image class="extras" alt="My Account icon" src="/images/LoginIcon.jpg"></image><span class="ImgText">My Accounts</span></a>
             </li>
 
         </ul>
         <nav>
         </nav>
     </div>
+
 </div>
 
-<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <div class="container inner">
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-
-
-
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-controller="Members" asp-action="Index">Meet the members</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">Learn More</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="navbar_actions">
-        <a href="#" class="btn btn-text">Login</a>
-        <a href="#" class="btn btn-primary">Join</a>
-    </div>
-
-</header>
 <div class="container">
     <main role="main" class="pb-3">
         @RenderBody()

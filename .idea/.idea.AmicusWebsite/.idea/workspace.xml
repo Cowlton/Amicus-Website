@@ -9,11 +9,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c17ec9a9-ec07-40c8-b778-630d5ead94d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AmicusWebsiteProject/wwwroot/images/Dropdown1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AmicusWebsiteProject/wwwroot/images/DropdownIcon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Home/OpenHouse.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AmicusWebsite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AmicusWebsite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Home/About.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Home/About.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Members/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Members/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Views/_ViewImports.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.pdb" afterDir="false" />
@@ -66,25 +70,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Cowlton/Amicus-Website.git",
+    "accountId": "0c895aa2-bf5c-4cc6-9da2-e727b2b5ab42"
+  }
+}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="38U4CSLTfFDqrUpOCrhi4XCIPkw" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.AmicusWebsiteProject: Testing.executor": "Run",
     ".NET Project.AmicusWebsiteProject.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -96,7 +106,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.AmicusWebsiteProject">
+  <component name="RunManager" selected=".NET Launch Settings Profile.AmicusWebsiteProject: Testing">
     <configuration name="AmicusWebsiteProject" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -106,10 +116,10 @@
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
       <option name="PTY_MODE" value="Auto" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/AmicusWebsiteProject/AmicusWebsiteProject.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
@@ -131,7 +141,6 @@
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <option name="AUTO_ATTACH_CHILDREN" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -147,7 +156,6 @@
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <option name="AUTO_ATTACH_CHILDREN" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -168,15 +176,62 @@
       <workItem from="1769130867425" duration="181000" />
       <workItem from="1769132029081" duration="835000" />
       <workItem from="1769215909221" duration="1172000" />
-      <workItem from="1769740226983" duration="5216000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

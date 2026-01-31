@@ -7,23 +7,23 @@
 <h2>board_members</h2>
 <table class="table">
     <tr>
-        <th>ID</th>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Title</th>
-        <th>Email</th>
-        <th>Phone Number</th>
+        
     </tr>
 
     @foreach (var board_members in @Model)
     {
         <tr>
-            <td>@board_members.MemberID</td>
             <td>@board_members.FirstName</td>
             <td>@board_members.LastName</td>
             <td>@board_members.Title</td>
-            <td>@board_members.Email</td>
-            <td>@board_members.PhoneNumber</td>
+            @if (board_members.Email != null)
+            {
+                <td>@board_members.Email</td>
+            }
+            @if (board_members.PhoneNumber != null)
+            {
+                <td>@board_members.PhoneNumber</td>
+            }
         </tr>
     }
 

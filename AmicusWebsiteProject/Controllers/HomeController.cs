@@ -6,6 +6,7 @@ using AmicusWebsiteProject.Models;
 
 public class HomeController : Controller
 {
+    
     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
@@ -19,6 +20,11 @@ public class HomeController : Controller
     }
     
     public IActionResult About()
+    {
+        return View();
+    }
+
+    public IActionResult OpenHouse()
     {
         return View();
     }
