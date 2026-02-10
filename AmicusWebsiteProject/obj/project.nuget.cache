@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yVx+33nPmNY=",
+  "dgSpecHash": "0p8mUda0jxc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\wolfl\\Desktop\\repos\\AmicusWebsite\\AmicusWebsiteProject\\AmicusWebsiteProject.csproj",
+  "projectFilePath": "C:\\Users\\wolfl\\OneDrive\\Desktop\\repos\\Amicus-Website\\AmicusWebsiteProject\\AmicusWebsiteProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wolfl\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\wolfl\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",

@@ -20,18 +20,41 @@
                         <i class="fa fa-caret-down"></i>
                     </span>
                     <div class="dropdown-content">
-                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        <a class="nav-link" asp-area="" asp-controller="Members" asp-action="Index">Contact a member</a>
-                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                        <abbr title="New Member Information Page">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="OpenHouse">New Member Info</a>
+                        </abbr>
+                        <abbr title="Board Member Contact Page">
+                            <a class="nav-link" asp-area="" asp-controller="Members" asp-action="Index">Contact a member</a>
+                        </abbr>
+                        <abbr title="About Amicus Page">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                        </abbr>
                     </div>
                 </div>
             </li>
 
             <li>
-                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="OpenHouse"><image class="extras" alt="Open House Icon" src="/images/OpenHouseIcon.png"></image><span class="ImgText">Join A Open House</span></a>
+                <abbr title="Home Page">
+                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><image class="extras" alt="Open House Icon" src="/images/OpenHouseIcon.png"></image><span class="ImgText">Home</span></a>
+                </abbr>
             </li>
             <li>
-                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><image class="extras" alt="Curriculum icon" src="/images/curriculum-icon.png"></image><span class="ImgText">Curriculum</span></a>
+                <div class="dropdown">
+                    <span class="dropbtn"><image class="extras" alt="Dropdown" src="/images/curriculum-icon.png"><span class="ImgText">Curriculum</span></image>
+                        <i class="fa fa-caret-down"></i>
+                    </span>
+                    <div class="dropdown-content">
+                        <abbr title="Approach Page">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Approach">Grades k-6</a>
+                        </abbr>
+                        <abbr title="Crossover Page">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Crossover">Grades 4-6</a>
+                        </abbr>
+                        <abbr title="Quest page">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Quest">Grades 7-12</a>
+                        </abbr>
+                    </div>
+                </div>
             </li>
 
             <li class="Right">
@@ -62,3 +85,5 @@
 @*@RenderSection("Scripts", required: false)*@
 </body>
 </html>
+
+

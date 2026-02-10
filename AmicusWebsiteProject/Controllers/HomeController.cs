@@ -24,6 +24,21 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Approach()
+    {
+        return View();
+    }
+
+    public IActionResult Crossover()
+    {
+        return View();
+    }
+
+    public IActionResult Quest()
+    {
+        return View();
+    }
+    
     public IActionResult OpenHouse()
     {
         return View();
