@@ -1,4 +1,10 @@
 ﻿
+
+#menu:hover{
+    color: black
+}
+
+
 /*#region Baise HTML*/
 
 html {
@@ -14,8 +20,6 @@ html {
 
 p{
     font-size: 20px;
-    
-    
 }
 
 abbr{
@@ -36,16 +40,31 @@ body{
     transition: color 0.4s ease;
 }
 
+.content{
+    
+}
+
+.nav-link:hover{
+    color: whitesmoke;
+    font-weight: bold;
+}
+.ImgText:hover{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
 
 h1{
     font-size: 45px;
     background-color: #506682;
     border-radius: 10px;
     box-shadow: 14px 14px 2px 1px rgba(4, 4, 4, 0.2);
+    
+    width: fit-content;
+    
+    padding: 15px;
 
-    min-width: 160px;
-
-    border-color: black;
+    border-color: white;
     border-style: solid;
     border-width: 3px;
 }
@@ -73,7 +92,7 @@ a {
 }
 
 a:hover{
-    color: black;
+    color: whitesmoke;
 }
 
 /*#endregion Links*/
@@ -85,6 +104,24 @@ a:hover{
 
 
 /*#region formating*/
+
+/*Page Boxes*/
+.topBox{
+    font-size: 35px;
+    background-color: #506682;
+    border-radius: 10px;
+    box-shadow: 14px 14px 2px 1px rgba(4, 4, 4, 0.2);
+
+    min-width: 160px;
+    max-width: 350px;
+
+    padding: 15px;
+
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+}
+
 .outer{
     text-align: center;
 }
@@ -112,7 +149,7 @@ a:hover{
     border-radius: 10px;
     box-shadow: 14px 14px 2px 1px rgba(4, 4, 4, 0.2);
 
-    border-color: black;
+    border-color: white;
     border-style: solid;
     border-width: 3px;
 }
@@ -133,7 +170,7 @@ a:hover{
 }
 
 .dropbtn:hover{
-    color: black;
+    color: whitesmoke;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -144,7 +181,7 @@ a:hover{
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
 
-    border-color: black;
+    border-color: white;
     border-style: solid;
     border-width: 3px;
 
@@ -170,10 +207,11 @@ a:hover{
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #708fb8;
+    color: whitesmoke;
 }
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-    
+    color: whitesmoke;
     display: block;
 }
 /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -190,14 +228,6 @@ a:hover{
 /*#endregion JavaScript*/
 
 /*#endregion*/
-
-
-
-
-
-
-
-
 
 
 
@@ -224,7 +254,7 @@ li.nav-item{
     background-color: #506682;
     border-radius: 10px;
         
-    border-color: black;
+    border-color: white;
     border-style: solid;
     border-width: 3px;
     
@@ -239,6 +269,7 @@ li.nav-item{
 
 .icon{
     display: inline-block;
+    
 }
 .icon-lg{
     width: 25px;
@@ -305,9 +336,12 @@ button.accept-policy {
      
     height: 40px;
     border-radius: 10px;
-    border-color: black;
+   border-color: white;
     border-style: solid;
     border-width: 3px;
+}
+.extras:hover{
+    border-color: black;
 }
 .ImgText{
     position: relative;
@@ -316,16 +350,11 @@ button.accept-policy {
 }
 
 a.ImgText:hover{
-    color: black;
+    font-weight: bold;
+    
 }
 
 
 navbar-nav{
     top: 15px;
 }
-
-
-
-
-
-
