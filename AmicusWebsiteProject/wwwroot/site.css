@@ -106,20 +106,9 @@ a:hover{
 /*#region formating*/
 
 /*Page Boxes*/
-.topBox{
+
+.subjects{
     font-size: 35px;
-    background-color: #506682;
-    border-radius: 10px;
-    box-shadow: 14px 14px 2px 1px rgba(4, 4, 4, 0.2);
-
-    min-width: 160px;
-    max-width: 350px;
-
-    padding: 15px;
-
-    border-color: white;
-    border-style: solid;
-    border-width: 3px;
 }
 
 .outer{

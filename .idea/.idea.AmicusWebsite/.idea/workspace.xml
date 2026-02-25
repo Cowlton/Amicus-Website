@@ -9,27 +9,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c17ec9a9-ec07-40c8-b778-630d5ead94d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AmicusWebsite.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AmicusWebsite/.idea/.name" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmicusWebsiteProject/wwwroot/ApproachBoxes.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AmicusWebsite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AmicusWebsite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsite.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsite.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Home/Approach.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Home/Approach.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.staticwebassets.endpoints.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/bin/Debug/net8.0/AmicusWebsiteProject.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/AmicusWebsiteProject.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/AmicusWebsiteProject.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/AmicusWebsiteProject.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/apphost.exe" afterDir="false" />
@@ -43,17 +33,6 @@
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/staticwebassets.build.json.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/staticwebassets.build.json.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Debug/net8.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Release/net8.0/AmicusWebsiteProject.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Release/net8.0/AmicusWebsiteProject.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Release/net8.0/AmicusWebsiteProject.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Release/net8.0/AmicusWebsiteProject.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Release/net8.0/AmicusWebsiteProject.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Release/net8.0/AmicusWebsiteProject.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Release/net8.0/AmicusWebsiteProject.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Release/net8.0/AmicusWebsiteProject.GlobalUsings.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Release/net8.0/AmicusWebsiteProject.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Release/net8.0/AmicusWebsiteProject.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Release/net8.0/AmicusWebsiteProject.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/Release/net8.0/AmicusWebsiteProject.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AmicusWebsiteProject/wwwroot/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/AmicusWebsiteProject/wwwroot/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JSON File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -99,25 +79,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.AmicusWebsiteProject: IIS Express.executor": "Run",
-    ".NET Launch Settings Profile.AmicusWebsiteProject: Testing.executor": "Run",
-    ".NET Project.AmicusWebsiteProject.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.AmicusWebsiteProject: IIS Express.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.AmicusWebsiteProject: Testing.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.AmicusWebsiteProject.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.AmicusWebsiteProject: Testing">
     <configuration name="AmicusWebsiteProject" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -195,8 +176,17 @@
       <workItem from="1771257713030" duration="892000" />
       <workItem from="1771258639633" duration="356000" />
       <workItem from="1771259020366" duration="472000" />
-      <workItem from="1771259508294" duration="6311000" />
+      <workItem from="1771259508294" duration="19147000" />
     </task>
+    <task id="LOCAL-00001" summary="css update">
+      <option name="closed" value="true" />
+      <created>1771302888164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771302888164</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +244,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="css update" />
+    <option name="LAST_COMMIT_MESSAGE" value="css update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
