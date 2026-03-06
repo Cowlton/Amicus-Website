@@ -6,27 +6,50 @@
     box-shadow: 14px 14px 2px 1px rgba(4, 4, 4, 0.2);
     
     padding: 15px;
-
+    
     border-color: white;
     border-style: solid;
     border-width: 3px;
 }
 
-.BOX1{
+
+.innerBox{
+    padding: 5px;
+    font-size: 25px;
+
     
+    background-color: #506682;
+    border-radius: 10px;
+    
+
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+        
+}
+
+.innerBox:hover{
+    background-color: #344353;
+}
+
+.BOX1{
+
     min-width: 160px;
     max-width: 550px;
-    
-    height: 150px;
+
+    height: 100%;
+    min-height: 100%;
 }
 
 
-
-.BOX2{    
+.BOX2{
     min-width: 160px;
     max-width: 400px;
 
-    height: 500px;
+    margin-left: 20px;
+
+    height: 100%;
+    min-height: 100%;
 
     li {
         float: left;
@@ -37,20 +60,91 @@
 
 }
 .BOX3{
-    margin-top: -350px;
-    
-    min-width: 160px;
-    max-width: 200px;
-
-    height: 130px;
-    
-}
-
-.Box4{
-    margin-top: -350px;
+    margin-top: -410px;
 
     min-width: 160px;
     max-width: 200px;
 
-    height: 130px;
+    height: 100%;
+    min-height: 100%;
+
 }
+
+.BOX4{
+
+    min-width: 100px;
+    max-width: 290px;
+    height: 100%;
+    min-height: 100%;
+    margin-top: -395px;
+}
+
+.BOX5{
+
+    min-width: 160px;
+    max-width: 200px;
+
+    min-height: 40px;
+
+    margin-left: 40px;
+
+    margin-top: -240px;
+}
+
+.BOX6{
+    min-width: 160px;
+    max-width: 550px;
+
+    min-height: 80px;
+
+    margin-left: 40px;
+
+    margin-top: -10px;
+}
+
+.BOX7{
+    min-width: 160px;
+    max-width: 1020px;
+
+    min-height: 120px;
+
+    margin-left: 40px;
+
+    margin-top: -20px;
+}
+
+.BOX8{
+    min-width: 160px;
+    max-width: 1020px;
+
+    margin-left: 40px;
+    
+    min-height: 120px;
+    
+    .subjects{
+        font-size: 30px;
+    }
+}
+
+.BOX9{
+    min-width: 160px;
+    max-width: 500px;
+    margin-top: -35px;
+
+    height: 100%;
+    min-height: 100%;
+    
+}
+
+.BOX10{
+    min-width: 160px;
+    max-width: 1020px;
+
+    margin-top: -20px;
+    height: 100%;
+    min-height: 100%;
+
+    margin-left: 40px;
+
+}
+

@@ -144,6 +144,12 @@ a:hover{
 }
 
 
+.linkImg{
+    height: 25px;
+    margin-bottom: -5px;
+}
+
+
 /*#endregion Images*/
 
 /*#region Dropdown*/
@@ -346,4 +352,20 @@ a.ImgText:hover{
 
 navbar-nav{
     top: 15px;
+}
+
+ul.BulletPoints{
+    list-style-type: disc; /* default bullet style */
+    padding-left: 40px;    /* default indentation */
+    margin: 1em 0;
+    gap: 20px 0;
+    display: inline-block;
+}
+
+li.BulletPoints{
+    list-style-type: disc;
+}
+
+li.None{
+    list-style-type: none;
 }
