@@ -1,0 +1,44 @@
+﻿@model board_members
+@{
+    Layout = "_Layout";
+}
+
+<head>
+    <title>@ViewData["Title"] - Amicus</title>
+    <link rel="stylesheet" type="text/css" href="~/MembersStyle.css"/>
+</head>
+
+<h3>@Model.FirstName Information</h3>
+<p>@Model.FirstName is our @Model.Title</p>
+
+<ul>
+    
+    
+    @if (Model.MemberImage != null)
+    {
+        <li>
+            <img class="MemberImage" src="@Model.MemberImage" alt="Member Image">
+        </li>
+    }
+    
+    
+    
+    @if (Model.Email != null)
+    {
+        <li>You can Email @Model.FirstName at @Model.Email</li>
+    }
+
+  
+    @if (Model.PhoneNumber != null)
+    {
+        <li>You can contact @Model.FirstName at @long.Parse(string.Concat(@Model.PhoneNumber)).ToString("(000) 000-0000") </li>
+    }
+   
+</ul>
+
+<div style="display: block">
+    <a href="/Members/AddProfileImage/@Model.MemberID">Upload Profile Image</a>
+</div>
+
+
+

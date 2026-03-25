@@ -1,0 +1,12 @@
+﻿tr{
+    gap: 10px;
+}
+
+.Element{
+    display: flex;
+}
+
+.MemberImage{
+    max-width:100%;
+    max-height:100%;
+}

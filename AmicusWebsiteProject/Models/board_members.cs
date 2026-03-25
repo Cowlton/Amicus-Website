@@ -14,4 +14,6 @@ public class board_members
     
     public string? Email { get; set; }
     public string? PhoneNumber { get; set; }
+    
+    public string? MemberImage { get; set; }
 }

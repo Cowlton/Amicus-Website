@@ -57,6 +57,10 @@
             "MySql.Data": {
               "target": "Package",
               "version": "[9.5.0, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.7.1, )"
             }
           },
           "imports": [

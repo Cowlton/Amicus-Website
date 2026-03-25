@@ -1,0 +1,41 @@
+﻿@model board_members
+@{
+    Layout = "_Layout";
+}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Amicus</title>
+    <link rel="stylesheet" type="text/css" href="~/MembersStyle.css"/>
+</head>
+
+<div class="outer">
+    
+    <div class="inner">
+        <h1 >Select an Image</h1>
+        <h2>
+            <input class="" type="file" id="imageInput" accept="image/*">
+        </h2>
+
+        <input type="text" id="imageURL" readonly style="width: 0; display: none;">
+        <br>
+        <img class="center Logo" id="preview" src="" alt="Preview" style="max-width: 300px; display: none;">
+        <br>
+        <h2>
+            <button onclick="UpdateImage(@Model.MemberID)">Upload</button>
+        </h2>
+        
+    </div>
+    
+    
+
+    
+</div>
+
+
+
+
+
+</html>

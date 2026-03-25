@@ -6,9 +6,13 @@
     </PropertyGroup>
     <ItemGroup>
       <PackageReference Include="Dapper" Version="2.1.66" />
+      <PackageReference Include="jQuery" Version="3.7.1" />
       <PackageReference Include="MySql.Data" Version="9.5.0" />
     </ItemGroup>
     <ItemGroup>
       <None Include="wwwroot\images\Logo.png" />
+    </ItemGroup>
+    <ItemGroup>
+      <AdditionalFiles Include="Views\Members\ViewMember.cshtml" />
     </ItemGroup>
 </Project>

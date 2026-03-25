@@ -16,3 +16,29 @@ function collapse(){
     }
    
 }
+
+let url = null;
+
+document.getElementById('imageInput').addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (file) {
+        // Create a temporary URL for the selected file
+        url = URL.createObjectURL(file);
+        document.getElementById('imageURL').value = url;
+        document.getElementById('preview').src = url;
+        document.getElementById('preview').style.display = 'block';
+    }
+});
+
+function UpdateImage(Model){
+    $.ajax({
+        type: "POST",
+        url: "MemberRepository.aspx/UpdateProfileImage", // PageName.aspx/MethodName
+        data: "{url}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+    });
+    /*
+    $.ajax({UpdateProfileImage()});
+    Model.MemberImage = url;*/
+}

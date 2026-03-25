@@ -4,16 +4,18 @@
     Layout = "_Layout";
 }
 
+<head>
+    <title>@ViewData["Title"] - Amicus</title>
+    <link rel="stylesheet" type="text/css" href="~/MembersStyle.css"/>
+</head>
+
 <h2>board_members</h2>
 <table class="table">
-    <tr>
-        
-    </tr>
-
+   
     @foreach (var board_members in @Model)
     {
         <tr>
-            <td>@board_members.FirstName</td>
+            <td><a href="/Members/ViewMember/@board_members.MemberID">@board_members.FirstName</a></td>
             <td>@board_members.LastName</td>
             <td>@board_members.Title</td>
             @if (board_members.Email != null)
