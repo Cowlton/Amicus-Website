@@ -120,6 +120,36 @@ a:hover{
 
 /*#region formating*/
 
+.InfoBox{
+    width: 800px;
+    position: relative;
+    min-height: 100%;
+    color : white;
+
+    list-style: none;
+    font-size: 14px;
+    background: #40526a;
+
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    
+}
+
+
+.InfoBoxLink{
+    color : white;
+    font-size: 20px;
+}
+.InfoBoxLink:hover{
+    color: black;
+    font-size: 18px;
+}
+/* The side navigation menu */
+
+
+
 /*Page Boxes*/
 
 .subjects{
@@ -144,6 +174,32 @@ a:hover{
     
     border-radius: 10px;
 }
+
+/*#region Sidebar*/
+
+button{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.sidebar{
+    
+    margin-top: 60px;
+    padding: 0;
+    width: 200px;
+    background-color: #708fb8;
+    border-radius: 6px;
+    position: fixed;
+    height: fit-content;
+    overflow: auto;
+}
+#myDIV{
+    display: none;
+}
+
+/*endregion Sidebar*/
+
 
 /*endregion formating*/
 

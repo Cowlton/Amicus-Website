@@ -42,3 +42,12 @@ function UpdateImage(Model){
     $.ajax({UpdateProfileImage()});
     Model.MemberImage = url;*/
 }
+
+function ShowSideBar(){
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}

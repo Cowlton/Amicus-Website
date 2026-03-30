@@ -6,31 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>@ViewData["Title"] - Amicus</title>
     <link rel="stylesheet" type="text/css" href="~/site.css"/>
+    <script src="/site.js"></script>
 </head>
 <body class="outer">
 
-<div class="full-container header-container" id="header-container">
+<div id="myDIV" class="sidebar dropdown-content">
+    <abbr title="New Member Information Page">
+        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="OpenHouse">New Member Info</a>
+    </abbr>
+    <br>
+    <abbr title="Board Member Contact Page">
+        <a class="nav-link" asp-area="" asp-controller="Members" asp-action="Index">Contact a member</a>
+    </abbr>
+    <br>
+    <abbr title="About Amicus Page">
+        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">About</a>
+    </abbr>
+    <br>
+    <abbr title="Calendar Page">
+        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Calendar">Calendar</a>
+    </abbr>
+    
+</div>
 
+<div class="full-container header-container" id="header-container">
+    
     @*<div class="Logo"><a class="Logo" asp-area="" asp-controller="Home" asp-action="Index"><img alt="Amicus Logo" src="/images/Logo.png"></a></div>*@
     <div id="menu" class="menu">
         <ul class="navbar-nav">
+            
             <li>
-                <div class="dropdown">
-                    <span class="dropbtn"><image class="extras" alt="Dropdown" src="/images/Dropdown1.jpg"></image>
-                        <i class="fa fa-caret-down"></i>
-                    </span>
-                    <div class="dropdown-content">
-                        <abbr title="New Member Information Page">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="OpenHouse">New Member Info</a>
-                        </abbr>
-                        <abbr title="Board Member Contact Page">
-                            <a class="nav-link" asp-area="" asp-controller="Members" asp-action="Index">Contact a member</a>
-                        </abbr>
-                        <abbr title="About Amicus Page">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">About</a>
-                        </abbr>
-                    </div>
-                </div>
+                <button onclick="ShowSideBar()"><image class="extras" alt="Dropdown" src="/images/Dropdown1.jpg"> </image></button>
+               
             </li>
 
             <li>

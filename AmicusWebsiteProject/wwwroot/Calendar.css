@@ -1,0 +1,10 @@
+﻿.calendar {
+    width: 800px;
+    height: 600px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 14px 14px 2px 1px rgba(4, 4, 4, 0.2);
+    
+}
